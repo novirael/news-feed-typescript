@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Header {
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.Content {
+  border: 1px solid black;
+}
