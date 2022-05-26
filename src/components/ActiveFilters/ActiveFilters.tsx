@@ -9,6 +9,7 @@ export const ActiveFilters = ({ filters }: { filters: string[] }) => {
         <Tag
           key={filter}
           name={filter}
+          showIcon
           onClick={(removed: string) => {
             setActiveFilters(activeFilters.filter((f) => f !== removed));
           }}
